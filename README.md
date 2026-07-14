@@ -145,11 +145,11 @@ The analytical outcomes support business stakeholders in understanding customer 
 
 Data Analyst | Python | SQL | Power BI | Data Visualization | Business Analytics
 
-LinkedIn: *https://www.linkedin.com/in/pyarasani-anil-kumar/*
+LinkedIn: *(Add your profile)*
 
-GitHub: *https://github.com/Anilqumr/*
+GitHub: *(Add your profile)*
 
-Email: *Anilqumr@gmail.com*
+Email: *(Add your email)*
 
 ---
 
