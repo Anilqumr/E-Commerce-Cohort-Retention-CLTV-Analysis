@@ -6,3 +6,15 @@ This project focuses on performing Cohort Retention Analysis and Customer Lifeti
 
 This project is being developed as part of the Data Analytics Technical Internship.
 
+## Objectives
+Many SaaS and e-commerce companies focus heavily on acquiring new customers but fail to understand how long those customers remain active.
+
+Without measuring retention and lifetime value, businesses cannot answer questions such as:
+
+Which customer cohorts retain the longest?
+When do customers typically churn?
+Which acquisition channels generate loyal customers?
+Which customer segments generate the highest revenue?
+What is the maximum Customer Acquisition Cost (CAC) the business can afford?
+
+This project provides data-driven answers through cohort analysis and CLTV estimation.
