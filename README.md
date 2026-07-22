@@ -105,12 +105,13 @@ Typical data includes:
 
 ```
 Cohort-Retention-CLTV-Analysis/
-│
 ├── data/
-├── notebooks/
-├── sql/
-├── powerbi/
-├── images/
+│ └──Cleaned Data
+│    └──Cleaned_Ecommerce.csv
+| └──Raw Data
+│    └──Ecommerce_Dataset.csv.xls
+├── notebooks
+├── notes
 ├── README.md
 ├── requirements.txt
 └── .gitignore
@@ -139,17 +140,31 @@ The analytical outcomes support business stakeholders in understanding customer 
 
 ---
 
-## Author
+## Authors
 
-**Anil Kumar Pyarasani**
+## 👥 Team
 
-Data Analyst | Python | SQL | Power BI | Data Visualization | Business Analytics
+This project was built collaboratively by a team of 3.
 
-LinkedIn: *(Add your profile)*
+---
 
-GitHub: *(Add your profile)*
+**Member 1:** Anil Kumar Pyarasani
+[💼 LinkedIn](https://www.linkedin.com/in/pyarasani-anil-kumar/) | [🐙 GitHub](https://github.com/Anilqumr/) | [✉️ Email](mailto:Anilqumr@gmail.com)
 
-Email: *(Add your email)*
+---
+
+**Member 2:** Nneka Akanno
+[💼 LinkedIn](https://www.linkedin.com/in/nneka-akanno/) | [🐙 GitHub](https://github.com/MarySabestine) | [✉️ Email](mailto:akannomary@gmail.com)
+
+---
+
+**Member 3:** Anshuman Satpute
+[💼 LinkedIn](https://www.linkedin.com/in/anshuman-satpute-0ab978313) | [🐙 GitHub](https://github.com/02Anshuman) | [✉️ Email](mailto:anshumansatpute2002@gmail.com)
+
+---
+
+⭐ *If you found this project useful or insightful, consider giving it a star on GitHub!*
+
 
 ---
 
