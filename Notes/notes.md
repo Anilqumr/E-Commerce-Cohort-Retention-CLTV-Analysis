@@ -12,10 +12,11 @@ Failed transactions**
 Handle missing User IDs.**
 Clean and standardize data.**
 Convert transaction dates into proper datetime format.**
-Calculate the Cohort Month (month of each customer's first transaction).
-Assign every customer to their cohort.
-Validate cleaned dataset.
-Save the cleaned dataset for further analysis.
+Calculate the Cohort Month (month of each customer's first transaction).**
+Assign every customer to their cohort.**
+Validate cleaned dataset.**
+Save the cleaned dataset for further analysis.**
+
 Week 2 – Building the Cohort Retention Matrix
 
 Goal: Create cohort tables showing customer retention over time.
