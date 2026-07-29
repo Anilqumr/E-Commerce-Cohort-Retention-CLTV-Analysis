@@ -17,13 +17,15 @@ Assign every customer to their cohort.**
 Validate cleaned dataset.**
 Save the cleaned dataset for further analysis.**
 
+
 Week 2 – Building the Cohort Retention Matrix
 
 Goal: Create cohort tables showing customer retention over time.
 
 Tasks
+
 Group data by:
-Cohort Month
+Cohort Month **
 Transaction Month
 Calculate the number of months since first purchase.
 Create Cohort Index (Month 0, Month 1, Month 2, ...).
@@ -37,6 +39,8 @@ Absolute retained users
 Retention percentage
 Verify retention calculations.
 Export the retention matrix.
+
+
 Week 3 – Customer Lifetime Value (CLTV) Calculation
 
 Goal: Measure customer value across different segments.
@@ -55,6 +59,8 @@ Identify:
 High-value customers
 Low-value customers
 Summarize business insights from CLTV analysis.
+
+
 Week 4 – Visualization and Strategic Insights
 
 Goal: Present findings through visualizations and business recommendations.
