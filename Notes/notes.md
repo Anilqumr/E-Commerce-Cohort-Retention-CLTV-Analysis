@@ -27,7 +27,7 @@ Tasks
 Group data by:
 Cohort Month **
 Transaction Month **
-Calculate the number of months since first purchase.
+Calculate the number of months since first purchase. **
 Create Cohort Index (Month 0, Month 1, Month 2, ...).
 Use:
 groupby()

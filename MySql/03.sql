@@ -15,3 +15,28 @@ ADD COLUMN cohort_month_date DATE;
 
 UPDATE cleaned_ecommerce
 SET cohort_month_date = STR_TO_DATE(cohort_month, '%Y-%m-%d');
+
+SELECT
+    customer_id,
+    Cohort_Month,
+    transaction_month,
+    TIMESTAMPDIFF(
+        MONTH,
+        STR_TO_DATE(cohort_month, '%Y-%m-%d'),
+        transaction_month
+    ) AS cohort_index
+FROM cleaned_ecommerce;
+
+SELECT
+    customer_id,
+    cohort_month,
+    transaction_month,
+    CONCAT(
+        'Month ',
+        TIMESTAMPDIFF(
+            MONTH,
+            STR_TO_DATE(cohort_month, '%Y-%m-%d'),
+            transaction_month
+        )
+    ) AS cohort_index
+FROM cleaned_ecommerce;
