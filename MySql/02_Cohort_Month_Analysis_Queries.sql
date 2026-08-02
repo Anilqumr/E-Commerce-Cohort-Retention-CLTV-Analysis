@@ -14,13 +14,13 @@ FROM cleaned_ecommerce
 GROUP BY Cohort_Month
 ORDER BY Cohort_Month;
 
-#Count the number of orders in each Transaction Date
+#Count the number of orders in each Transaction Month
 SELECT
-    transaction_date,
+    transaction_month_date,
     COUNT(*) AS Total_Orders
 FROM cleaned_ecommerce
-GROUP BY transaction_date
-ORDER BY transaction_date;
+GROUP BY transaction_month_date
+ORDER BY transaction_month_date;
 
 #Total Revenue by Cohort Month
 SELECT
@@ -44,3 +44,15 @@ SELECT
 FROM cleaned_ecommerce
 GROUP BY Cohort_Month
 ORDER BY Cohort_Month;
+
+#Calculate the number of months since first purchase. **
+SELECT
+    customer_id,
+    transaction_date,
+    cohort_month,
+    TIMESTAMPDIFF(
+        MONTH,
+        STR_TO_DATE(CONCAT(cohort_month, '-01'), '%Y-%m-%d'),
+        transaction_date
+    ) AS months_since_first_purchase
+FROM cleaned_ecommerce;

@@ -29,6 +29,13 @@ Cohort Month **
 Transaction Month **
 Calculate the number of months since first purchase. **
 Create Cohort Index (Month 0, Month 1, Month 2, ...). **
+
+Calculate:
+Number of unique customers**
+Number of orders**
+Total revenue**
+Average order value**
+
 Use:
 groupby()
 pivot_table()
@@ -36,10 +43,10 @@ or SQL Pivot techniques.
 Build the Cohort Retention Matrix.   **
 
 Calculate:
-Absolute retained users
-Retention percentage
-Verify retention calculations.
-Export the retention matrix.
+Absolute retained users**
+Retention percentage**
+Verify retention calculations.**
+Export the retention matrix. **
 
 
 Week 3 – Customer Lifetime Value (CLTV) Calculation
