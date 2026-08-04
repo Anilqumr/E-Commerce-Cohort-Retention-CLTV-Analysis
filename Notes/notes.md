@@ -1,6 +1,6 @@
 Week 1 – Transactional Data Cleaning and Wrangling
 
-Goal: Prepare a clean dataset suitable for cohort analysis.
+Goal: Prepare a clean dataset suitable for cohort analysis.(Used Python Notebook(Pandas, MatplotLib, EDA).)
 
 Tasks
 Acquire/import the raw transactional dataset. **
@@ -20,10 +20,9 @@ Save the cleaned dataset for further analysis.**
 
 Week 2 – Building the Cohort Retention Matrix
 
-Goal: Create cohort tables showing customer retention over time.
+Goal: Create cohort tables showing customer retention over time(Used MySql for Cohort Rentention Matrix).
 
 Tasks
-
 Group data by:
 Cohort Month **
 Transaction Month **
