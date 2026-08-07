@@ -57,14 +57,19 @@ Segment customers based on:
 Acquisition Channel
 Geographic Region
 (or any meaningful business segment)
+
 Calculate:
 Average Order Value (AOV)
 Purchase Frequency
+
 Calculate historical Customer Lifetime Value (CLTV).
+
 Compare CLTV across different customer segments.
+
 Identify:
 High-value customers
 Low-value customers
+
 Summarize business insights from CLTV analysis.
 
 
