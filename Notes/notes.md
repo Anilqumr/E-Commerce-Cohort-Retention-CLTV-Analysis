@@ -151,8 +151,3 @@ Maintain consistent commits across all four weeks, as evaluation requires visibl
 
 
 
-Delete this later
-
-For Week 3, a hybrid toolchain is recommended: use MySQL (SQL) for heavy data processing and aggregation, Python (Pandas/NumPy) for flexible analysis and reporting in a notebook, and Power BI for the final dashboard. MySQL excels at high-performance grouping and aggregation on large tables, while Python offers advanced analytics, reproducibility, and easy scripting of custom logic. Power Query (M) is useful for simple ETL but struggles with very large datasets and complex logic, whereas Power BI provides rich visualization but has model-size limits (1 GB on Pro, 10 GB on Premium).
-
-We recommend continuing the existing pipeline: keep the cleaned e-commerce data in MySQL (as used in Week 2) for SQL-based calculations, pull results into Python for verification and segmentation, and finally present insights in Power BI. This combines the best of each tool: SQL for scalable segmentation and metric calculation, Python for analysis scripts and documentable notebooks, and Power BI for interactive visual storytelling.
