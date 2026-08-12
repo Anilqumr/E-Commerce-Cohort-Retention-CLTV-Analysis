@@ -465,17 +465,16 @@ This repository contains:
 
 # Author
 
-**Dawn**
+**Anil Kumar Pyarasani**
 
-Advanced Data Analytics Internship Project
+LinkedIN --  https://www.linkedin.com/in/pyarasani-anil-kumar
 
-Infotact Solutions
+Git Hub  --  https://github.com/Anilqumr
 
+E-mail   --  Anilqumr@gmail.com
 ---
 
 # Acknowledgements
-
-This project was developed as part of the **Infotact Solutions Advanced Data Analytics Internship Program**.
 
 The implementation currently covers the first two phases of the engineering roadmap:
 
