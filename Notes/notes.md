@@ -5,13 +5,13 @@ Goal: Prepare a clean dataset suitable for cohort analysis.(Used Python Notebook
 Tasks
 Acquire/import the raw transactional dataset. **
 Load the dataset into Python (Pandas).**
-Inspect the dataset structure.**
+Inspect the dataset structure.(Pandas)**
 Filter out: 
 Refunded transactions **
 Failed transactions**
 Handle missing User IDs.**
 Clean and standardize data.**
-Convert transaction dates into proper datetime format.**
+Convert transaction dates into proper datetime format.(pd.str_to_Datetime)**
 Calculate the Cohort Month (month of each customer's first transaction).**
 Assign every customer to their cohort.**
 Validate cleaned dataset.**
@@ -23,13 +23,13 @@ Week 2 – Building the Cohort Retention Matrix
 Goal: Create cohort tables showing customer retention over time(Used MySql for Cohort Rentention Matrix).
 
 Tasks
-Group data by:
+Group data by:(In MySql)
 Cohort Month **
 Transaction Month **
 Calculate the number of months since first purchase. **
 Create Cohort Index (Month 0, Month 1, Month 2, ...). **
 
-Calculate:
+Calculate:(MySql)
 Number of unique customers**
 Number of orders**
 Total revenue**
@@ -39,18 +39,18 @@ Use:
 groupby()
 pivot_table()
 or SQL Pivot techniques.
-Build the Cohort Retention Matrix.   **
+Build the Cohort Retention Matrix.(Created a CSV in MySql)**
 
 Calculate:
 Absolute retained users**
 Retention percentage**
 Verify retention calculations.**
-Export the retention matrix. **
+Export the retention matrix. (Created a CSV For Cohort Retention using SQL. Plotted a heatmap it in Python Notebook)**
 
 
 Week 3 – Customer Lifetime Value (CLTV) Calculation
 
-Goal: Measure customer value across different segment       s.
+Goal: Measure customer value across different segments.
 
 Tasks
 Segment customers based on:
@@ -152,3 +152,17 @@ Maintain consistent commits across all four weeks, as evaluation requires visibl
 
 
 Thid is a test line
+###
+
+Recommended workflow
+Task	                                Best Tool	               Why
+
+Prepare/verify transactional data	    MySQL	                   Your cleaned dataset is already in the database
+Customer-level AOV	                    MySQL	                   Efficient aggregation/grouping
+Purchase Frequency	                    MySQL	                   SQL COUNT, GROUP BY, date/customer logic
+Historical CLTV calculation	            MySQL + Python             SQL for calculation; Python for validation/analysis
+Segment by acquisition channel/region	MySQL	                   Clean segment-level aggregation
+Compare CLTV segments	                Python	                   Easier statistical/visual analysis
+Identify high/low-value customers	    Python + SQL	           SQL creates metrics; Python analyzes distributions
+Visualize CLTV comparisons	            Power BI	               Interactive business-facing dashboard
+Final analytical documentation	        Python Notebook	           Required by project specification
