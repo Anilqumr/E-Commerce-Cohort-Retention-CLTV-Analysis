@@ -9,8 +9,7 @@ Week 3 — Recommended Tool by Task
 7	Calculate Historical CLTV	       Python – Pandas	            Build CLTV using your defined historical formula
 8	Calculate CLTV by segment	       Python – Pandas	            groupby(segment) and aggregate CLTV metrics
 9	Compare segments	               Python – Pandas + Matplotlib  Tables + bar charts for segment comparison
-10	Identify high-value customers	   Python – Pandas	            Rank customers using CLTV/revenue
-11	Identify low-value customers	   Python – Pandas		        Identify customers with low historical value
+
 12	Validate calculations	           Python + MySQL            	Cross-check totals against Week 1/2 data
 13	Business insights	               Python Notebook / Markdown   Interpret why segments differ
 14	Save CLTV output	               Python – Pandas		        Export customer-level and segment-level CLTV CSVs
