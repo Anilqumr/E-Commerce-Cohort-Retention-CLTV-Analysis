@@ -94,6 +94,7 @@ The objectives of this project are to:
 - NumPy
 - Matplotlib
 - Jupyter Notebook
+- Power BI or Looker
 
 ## Database
 
