@@ -105,6 +105,7 @@ The objectives of this project are to:
 
 - Git
 - GitHub
+- VS Code
 
 ---
 
