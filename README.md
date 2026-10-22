@@ -416,7 +416,7 @@ SaaS-E-Commerce-Cohort-Retention-CLTV-Analysis/
 |--------|--------|
 | Week 1 – Data Cleaning | ✅ Completed |
 | Week 2 – Cohort Analysis | ✅ Completed |
-| Week 3 – CLTV Analysis | ⏳ In Progress |
+| Week 3 – CLTV Analysis | ✅ Completed |
 | Week 4 – Visualization & Insights | ⏳ Pending |
 
 ---
