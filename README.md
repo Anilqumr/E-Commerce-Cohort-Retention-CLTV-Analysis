@@ -475,11 +475,3 @@ Git Hub  --  https://github.com/Anilqumr
 E-mail   --  Anilqumr@gmail.com
 ---
 
-# Acknowledgements
-
-The implementation currently covers the first two phases of the engineering roadmap:
-
-- **Week 1:** Transactional Data Cleaning & Wrangling
-- **Week 2:** Cohort Retention Matrix Development
-
-The remaining phases will extend the project with **Customer Lifetime Value (CLTV)** analysis, customer segmentation, retention visualizations, and executive business insights.
