@@ -105,6 +105,7 @@ The objectives of this project are to:
 
 - Git
 - GitHub
+- VS Code
 
 ---
 
@@ -415,7 +416,7 @@ SaaS-E-Commerce-Cohort-Retention-CLTV-Analysis/
 |--------|--------|
 | Week 1 – Data Cleaning | ✅ Completed |
 | Week 2 – Cohort Analysis | ✅ Completed |
-| Week 3 – CLTV Analysis | ⏳ In Progress |
+| Week 3 – CLTV Analysis | ✅ Completed |
 | Week 4 – Visualization & Insights | ⏳ Pending |
 
 ---
@@ -475,4 +476,5 @@ Git Hub  --  https://github.com/Anilqumr
 E-mail   --  Anilqumr@gmail.com
 ---
 
-Chnages for 07/11/2026
+Chnages for 05/11/2026
+dfbdfbf
